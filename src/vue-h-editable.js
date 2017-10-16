@@ -22,7 +22,7 @@
                 }
             },
             update: function (el,binding) {
-                el.innerHTML = binding.value || ''
+                
             },
             unbind: function (el,binding) {
                 el.removeEventListener('input', binding.handler)
