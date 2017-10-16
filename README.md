@@ -10,19 +10,20 @@ vue contenteditable 插件
 ## Installation
 
 #### install with NPM
-
+```
 npm install vue-h-editable --save  
-
+```
 #### Import
-
+```
 import vueEditable from 'vue-h-editable'
-
+```
 
 ## Usage
 first import it:
 
 ```
-import vueEditable from 'vue-h-editable'
+import vueEditable from 'vue-h-editable'  
+
 Vue.use(vueEditable);
 ```
 
