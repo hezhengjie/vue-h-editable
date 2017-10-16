@@ -1,25 +1,34 @@
 # vue-h-editable
-<<<<<<< HEAD
+vue contenteditable 插件
 
-> A Vue.js project
+## About
 
-## Build Setup
+## Demo 
 
-``` bash
-# install dependencies
-npm install
+[Demo](https://hezhengjie.github.io/vue-h-editable/demo/index.html)
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Installation
 
-# build for production with minification
-npm run build
+#### install with NPM
 
-# build for production and view the bundle analyzer report
-npm run build --report
+npm install vue-h-editable --save  
+
+#### Import
+
+import vueEditable from 'vue-h-editable'
+
+
+## Usage
+first import it:
+
+```
+import vueEditable from 'vue-h-editable'
+Vue.use(vueEditable);
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
-contenteditable 插件
->>>>>>> 56e442edd078a7ef265f21450cd9f6ffd0f2853a
+Then in your template just use the directive:
+
+```
+<div class="h-content" v-editable="content"> //content is data model ,like v-model
+
+```
