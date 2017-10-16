@@ -1,4 +1,5 @@
 # vue-h-editable
+<<<<<<< HEAD
 
 > A Vue.js project
 
@@ -19,3 +20,6 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+contenteditable 插件
+>>>>>>> 56e442edd078a7ef265f21450cd9f6ffd0f2853a
