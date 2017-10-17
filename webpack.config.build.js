@@ -6,7 +6,7 @@ module.exports = {
     entry: './src/vue-h-editable.js',
 
     output: {
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname, './'),
         filename: 'vue-h-editable.js',
         library: 'VueEditable',
         libraryTarget: 'umd',

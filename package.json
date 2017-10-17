@@ -1,10 +1,10 @@
 {
   "name": "vue-h-editable",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A Vue.js project",
   "author": "hugh <hzj727792893@gmail.com>",
-  "main": "dist/vue-h-editable.js",
-  "files": [
+  "main": "vue-h-editable.js",
+  "files":[
     "vue-h-editable.js"
   ],
   "scripts": {
